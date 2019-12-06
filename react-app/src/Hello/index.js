@@ -10,17 +10,13 @@ class Hello extends React.Component {
     }
 
     handleClick = () => {
-        try {
-            throw new Error('Caught');
-        } catch(err) {
-
-        }
+        throw new Error('Caught');
     }
 
     render() {
         return (
             <div>
-                <button onClick={this.handleClick}>2111</button>
+                <button onClick={this.handleClick}>21121</button>
             </div>
         );
     }

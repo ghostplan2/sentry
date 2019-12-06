@@ -1,10 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Hello from './Hello';
 
 class App extends React.Component{
-  componentDidMount() {
+  constructor(props) {
+    super(props)
   }
 
   componentDidCatch(error, info) {
@@ -12,7 +12,7 @@ class App extends React.Component{
     console.log('info', info)
     const error_str = JSON.stringify(error);
     const info_str = JSON.stringify(info);
-    console.log('error_str', error_str)
+    console.log('error_str', error_str);
     console.log('error info', info_str);
   }
 

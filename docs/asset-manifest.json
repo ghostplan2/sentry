@@ -1,23 +1,22 @@
 {
   "files": {
     "main.css": "/sentry/static/css/main.d1b05096.chunk.css",
-    "main.js": "/sentry/static/js/main.59cc36ab.chunk.js",
-    "main.js.map": "/sentry/static/js/main.59cc36ab.chunk.js.map",
+    "main.js": "/sentry/static/js/main.def3f7c6.chunk.js",
+    "main.js.map": "/sentry/static/js/main.def3f7c6.chunk.js.map",
     "runtime-main.js": "/sentry/static/js/runtime-main.797de111.js",
     "runtime-main.js.map": "/sentry/static/js/runtime-main.797de111.js.map",
     "static/js/2.f32e8eef.chunk.js": "/sentry/static/js/2.f32e8eef.chunk.js",
     "static/js/2.f32e8eef.chunk.js.map": "/sentry/static/js/2.f32e8eef.chunk.js.map",
     "index.html": "/sentry/index.html",
-    "precache-manifest.6589faa5018d06eecaeb3dd38e0bbd9d.js": "/sentry/precache-manifest.6589faa5018d06eecaeb3dd38e0bbd9d.js",
+    "precache-manifest.b5588c76d8d63bce30b936215cb5055a.js": "/sentry/precache-manifest.b5588c76d8d63bce30b936215cb5055a.js",
     "service-worker.js": "/sentry/service-worker.js",
     "static/css/main.d1b05096.chunk.css.map": "/sentry/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.f32e8eef.chunk.js.LICENSE": "/sentry/static/js/2.f32e8eef.chunk.js.LICENSE",
-    "static/media/logo.svg": "/sentry/static/media/logo.5d5d9eef.svg"
+    "static/js/2.f32e8eef.chunk.js.LICENSE": "/sentry/static/js/2.f32e8eef.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.797de111.js",
     "static/js/2.f32e8eef.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.59cc36ab.chunk.js"
+    "static/js/main.def3f7c6.chunk.js"
   ]
 }
