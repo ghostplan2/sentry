@@ -3,16 +3,25 @@ import React from 'react';
 class Hello extends React.Component {
     constructor(props) {
         super(props);
-        console.log(undef);
     }
 
     componentDidMount() {
-        console.log('component did mount');
+        
+    }
+
+    handleClick = () => {
+        try {
+            throw new Error('Caught');
+        } catch(err) {
+
+        }
     }
 
     render() {
         return (
-            <div>123</div>
+            <div>
+                <button onClick={this.handleClick}>2111</button>
+            </div>
         );
     }
 }
